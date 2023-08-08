@@ -1,0 +1,218 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'JetBrains Mono',
+}
+
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to top right,#35d5d062,#0340966a),url(backgroundweb.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  width: 150px;
+}
+
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding:0.8% 1.2%;
+  position: relative;
+}
+
+.nav-links ul li button.utility{
+  color:black;
+  background-color: white;
+  font-size: 12px;
+  border-radius: 15px;
+  padding: 10px 24px;
+  font-weight: 800;
+  border: none;
+}
+.nav-links ul li button.register  {
+  color:rgb(255, 255, 255);
+  background-color: #3274B8;
+  font-size: 12px;
+  border-radius: 15px;
+  padding:10px 24px;
+  font-weight: 800; 
+  border: none;
+}
+
+
+img.mainpage{
+  display: inline-block;
+  width: 40%;
+  margin-left:3.5%;
+  margin-top:10px;
+}
+div.text-box{
+  display: flex;
+  display: inline-block;
+  width: 40%;
+  margin-left: 5%;
+}
+p.h1{
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+  width:100%;
+  display: inline-block;
+  margin-left:5%;
+  margin-right:5%;
+}
+p.p{
+  color: azure;
+  font-size: 20px;
+  text-align: center;
+  background-color: black;
+  display: inline-block;
+  width:100%;
+  margin-right:5%;
+}
+div.mainpage{
+  width: 80%;
+  margin: auto;
+  text-align:center;
+  padding-top: 100px;
+}
+button.button1{
+  background-color: #3274B8;
+  color: aliceblue;
+  font-weight: 600;
+  text-align: center;
+  padding:14px 55px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-top:10px;
+  margin-left:30% ;
+  border: none;
+}
+
+section.whoarewe{
+  background-image: linear-gradient(to top right,#029398,#27374D);
+  font-family: 'JetBrains Mono', monospace;
+}
+img.whoarewe{
+  display: inline-block;
+  width: 200px;
+  margin-left: 5%;
+  margin-top:10px ;
+}
+h1.whoarewe{
+  display: inline-block;
+  margin-left: 5%;
+  font-size: 50px;
+  font-weight:900;
+  color: azure;
+}
+p.whoarewe{
+  font-size: 25px;
+  margin-top:70px;
+  margin-left:10%;
+  margin-right:10%;
+  text-align: justify;
+  text-indent: 50px;
+  font-weight: 500;
+  color: azure;
+}
+div.whoarewe{
+  color: #a4b6e0;
+  margin-top:7%;
+  margin-left:7%;
+}
+hr.who{
+  color: gray;
+  width: 100%;
+}
+
+section.joinus{
+  background-image: linear-gradient(to bottom right,#029398,#27374D);
+  color: azure;
+  font-family: 'JetBrains Mono', monospace;
+}
+h1.joinus{
+  padding-top: 50px;
+  margin-left: 20%;
+  font-size: 40px;
+  font-weight:900;
+  color: azure;
+}
+p.joinus{
+  font-size: 30px;
+  margin-top:70px;
+  margin-left:10%;
+  margin-right:10%;
+  padding-bottom:70px;
+  text-align: justify;
+  text-indent: 50px;
+  font-weight: 500;
+  color: azure;
+}
+button.joinus{
+  background-color: #3274B8;
+  color: aliceblue;
+  font-weight: 600;
+  text-align: center;
+  padding:18px 40px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-top:10px;
+  margin-left:65%;
+  margin-bottom: 60px;
+  border: none;
+}
+hr.whoarewe{
+  width:84%;
+  margin-left:8%;
+  margin-right:8%;
+}
+
+section.footer{
+  background-image:url(01.png);
+  background-position: center;
+  background-size:content;
+}
+img.footer{
+  width: 20%;
+  display: inline-block;
+  margin-left: 10%;
+}
+pre.footer{
+  font-size: 15;
+  color: azure;
+  margin-left: 12%;
+  padding-bottom:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'JetBrains Mono',
+}
+.header{
+  min-height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to bottom right,#029398,#27374D);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  width: 150px;
+}
+
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding:0.8% 1.2%;
+  position: relative;
+}
+
+.nav-links ul li button.utility{
+  color:black;
+  background-color: white;
+  font-size: 12px;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 24px;
+  font-weight: 800;
+}
+.nav-links ul li button.register  {
+  color:rgb(255, 255, 255);
+  background-color: #3274B8;
+  font-size: 12px;
+  border-radius: 15px;
+  padding: 10px 24px;
+  border: none;
+  font-weight: 800;
+}
+
+section.whoarewe{
+  background-image: linear-gradient(to top right,#029398,#27374D);
+  font-family: 'JetBrains Mono', monospace;
+  padding-top: 50px;
+}
+img.whoarewe{
+  display: inline-block;
+  width: 200px;
+  margin-left: 5%;
+  margin-top:10px ;
+}
+hr.whoarewe{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+h1.whoarewe{
+  display: inline-block;
+  margin-left: 5%;
+  font-size: 50px;
+  font-weight:900;
+  color: azure;
+}
+p.whoarewe{
+  font-size: 30px;
+  margin-top:70px;
+  margin-left:10%;
+  margin-right:10%;
+  text-align: justify;
+  text-indent: 50px;
+  font-weight: 500;
+  color: azure;
+}
+div.whoarewe{
+  color: #a4b6e0;
+  margin-top:7%;
+  margin-left:7%;
+}
+section.footer{
+  background-image:url(01.png);
+  background-position: center;
+  background-size:content;
+}
+img.footer{
+  width: 20%;
+  display: inline-block;
+  margin-left: 10%;
+}
+pre.footer{
+  font-size: 15;
+  color: azure;
+  margin-left: 12%;
+  padding-bottom:50px;
+}
